@@ -89,7 +89,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--dark); 
 }
 
 header a {
@@ -127,6 +127,25 @@ span[role='img'] {
 
 form {
   width: 40%;
+}
+
+.portfolio_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio_object {
+  background: #212121; 
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.portfolio_object:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
 }
 
 input {
@@ -266,7 +285,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--light);
   border: 0;
   border-radius: 5px;
   color: #fff;
@@ -279,7 +298,7 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--primary);
+  color: #fff;
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
@@ -288,4 +307,8 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+h2 {
+  color: var(--primary); 
 }

@@ -29,7 +29,7 @@ function Nav(props) {
             setPortfolioPage(false);
         }}>About Me</span>
           </li>
-          <li className={`mx-2 ${ contactPage }`}>
+          <li className={`mx-2 ${ contactPage}`}>
             <span onClick={() => {
             setAboutPage(false);
             setContactPage(true);

@@ -30,6 +30,8 @@ function App() {
         {portfolioPage && <Portfolio></Portfolio>}
         {resumePage && <Resume></Resume>}
       </main>
+
+      
     </div>
   );
 }
