@@ -55,6 +55,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+
 }
 
 h3 {
@@ -174,6 +175,21 @@ nav li {
   cursor: pointer;
 }
 
+footer {
+  background-color: black;
+  padding: 3rem; 
+  text-align: center;
+  margin-top: 7rem; 
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem; 
+}
+
 textarea {
   width: 600px;
   height: 120px;
@@ -208,7 +224,11 @@ textarea {
 
 .mx-2 {
   margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+  float: right;
+  justify-content: right;
+  align-items: right;
+  margin-left: 180px;
+
 }
 
 .my-1 {
@@ -311,4 +331,12 @@ a {
 
 h2 {
   color: var(--primary); 
+}
+
+nav {
+  margin-top: 40px; 
+}
+
+.name {
+  color: white; 
 }

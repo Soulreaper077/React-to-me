@@ -16,17 +16,18 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a className="name">
           Jesse Ponce 
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
+        <ul className="navtxt">
           <li className={`mx-2 ${ aboutPage }`}>
             <span onClick={() => {
             setAboutPage(true);
             setContactPage(false);
             setPortfolioPage(false);
+            setResumePage(false);
         }}>About Me</span>
           </li>
           <li className={`mx-2 ${ contactPage}`}>
@@ -34,6 +35,7 @@ function Nav(props) {
             setAboutPage(false);
             setContactPage(true);
             setPortfolioPage(false);
+            setResumePage(false);
         }}>Contact</span>
           </li>
           <li className={`mx-2 ${ portfolioPage }`}>
@@ -41,6 +43,7 @@ function Nav(props) {
             setAboutPage(false);
             setContactPage(false);
             setPortfolioPage(true);
+            setResumePage(false);
         }}>Portfolio</span>
           </li>
           <li className={`mx-2 ${ resumePage }`}>
