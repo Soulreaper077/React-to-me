@@ -5,25 +5,38 @@ function Resume () {
 
 
     return (
-        <section>
-            <div className="profile">
-                <a href="https://docs.google.com/document/d/15tR32m33ki_yoN43Xc4Szrl3trkiChwsSrHEQ8Ksvvc/edit?usp=sharing" download="https://docs.google.com/document/d/15tR32m33ki_yoN43Xc4Szrl3trkiChwsSrHEQ8Ksvvc/edit?usp=sharing">
-                    <button className="btn">Get Resume</button>
-                </a>
-                <p>
-                    <ul>
-                        <ol>
-                            Front-End
-                            Javascript,
-                            HTML,
-                            CSS,
-                            React
-                        </ol>
-                    </ul>
-                </p>
-            </div>
+        
+        <section className="my-5">
+    <h1 id="about">Skills And Technologies</h1>
 
-        </section>
+  
+    <div className='contaniner portfolio_box'>
+    <article className='portfolio_object'>
+    <h2> Front End </h2>
+    <ul>
+        <li> - Javascript</li>
+        <li> - React</li>
+        <li> - HTML</li>
+        <li> - CSS</li>
+    </ul>
+    <h2> Back End </h2>
+    <ul>
+        <li> - Node</li>
+        <li> - Express</li>
+        <li> - MongoDB</li>
+        <li> - MySQL</li>
+    </ul>
+    <h2> Developer Tools </h2>
+    <ul>
+        <li> - Jest</li>
+        <li> - npm</li>
+        <li> - Git</li>
+        <li> - WebPack</li>
+    </ul>
+
+  </article>
+  </div>
+  </section>
     )
 }
 export default Resume; 

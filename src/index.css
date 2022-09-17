@@ -344,3 +344,16 @@ nav {
   font-size: 20px; 
   margin-top: 40%; 
 }
+
+#contact-form {
+  border: solid 5px rgb(3, 40, 49);
+  border-style: outset; 
+  width: 60%; 
+  padding: 20px; 
+  background-color: #161618;
+
+}
+
+.lolipop {
+  padding: 8px; 
+}
