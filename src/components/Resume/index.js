@@ -1,12 +1,17 @@
 import React from 'react'; 
-import resumeImage from '../../assets/resume.png';
+import photo from '../../assets/resume.png';
 
 function Resume () {
 
 
     return (
         
+        
         <section className="my-5">
+            <div>
+                <a href={photo} download={photo}><button type="submit">Download Now!</button></a>
+            </div>
+
     <h1 id="about">Skills And Technologies</h1>
 
   

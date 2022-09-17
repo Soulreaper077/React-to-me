@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
+//import {useRef } from 'react';
+
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -14,6 +16,7 @@ function ContactForm() {
       console.log('Submit Form', formState);
     }
   };
+
 
   const handleChange = (e) => {
     if (e.target.name === 'email') {
