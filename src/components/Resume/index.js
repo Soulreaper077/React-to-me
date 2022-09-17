@@ -10,7 +10,17 @@ function Resume () {
                 <a href="https://docs.google.com/document/d/15tR32m33ki_yoN43Xc4Szrl3trkiChwsSrHEQ8Ksvvc/edit?usp=sharing" download="https://docs.google.com/document/d/15tR32m33ki_yoN43Xc4Szrl3trkiChwsSrHEQ8Ksvvc/edit?usp=sharing">
                     <button className="btn">Get Resume</button>
                 </a>
-                <img src={resumeImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+                <p>
+                    <ul>
+                        <ol>
+                            Front-End
+                            Javascript,
+                            HTML,
+                            CSS,
+                            React
+                        </ol>
+                    </ul>
+                </p>
             </div>
 
         </section>

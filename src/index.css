@@ -132,7 +132,7 @@ form {
 
 .portfolio_box {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
 
@@ -225,10 +225,7 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   float: right;
-  justify-content: right;
-  align-items: right;
   margin-left: 180px;
-
 }
 
 .my-1 {
@@ -339,4 +336,11 @@ nav {
 
 .name {
   color: white; 
+}
+
+#aboutp {
+  
+  padding: 20px; 
+  font-size: 20px; 
+  margin-top: 40%; 
 }

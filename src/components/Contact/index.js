@@ -35,6 +35,7 @@ function ContactForm() {
       console.log('Handle Form', formState);
     }
   };
+  console.log(formState); 
 
   return (
     <section>
