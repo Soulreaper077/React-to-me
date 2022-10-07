@@ -1,7 +1,7 @@
 import React from 'react'; 
 import project1 from '../../assets/img1.png';
 import project2 from '../../assets/img2.jpeg';
-import project3 from '../../assets/img3.jpeg';
+import project3 from '../../assets/img3.png';
 import project4 from '../../assets/img4.webp';
 import project5 from '../../assets/img5.png';
 import project6 from '../../assets/img6.jpeg';
@@ -39,9 +39,9 @@ function Portfolio () {
                         <img src={project3} alt='project-three'/>
 
                     </div>
-                    <h3>Tech Blog </h3>
+                    <h3> Fetch </h3>
                     <button className='portfolio-desc'>
-                        <a href='https://obscure-badlands-86186.herokuapp.com' className='btn' target='_self'>Live Demo</a>
+                        <a href='https://ohfetch.herokuapp.com/' className='btn' target='_self'>Live Demo</a>
                     </button>
 
                     
