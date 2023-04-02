@@ -9,7 +9,7 @@
   - [Contribution](#contribution)
 
 ## Description 
-SPA style React Portfolio page 
+SPA style React Portfolio page.
 
 ## Usage
 * React
